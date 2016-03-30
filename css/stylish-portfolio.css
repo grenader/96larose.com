@@ -24,11 +24,16 @@ body {
 
 .text-vertical-center h1 {
     margin: 0;
-    padding: 0;
-    font-size: 4.5em;
+    padding: 10px;
+    font-size: 2.0em;
     font-weight: 700;
 }
 
+@media (min-width: 767px) {
+    .text-vertical-center h1 {
+        font-size: 4.0em;
+    }
+}
 /* Custom Button Styles */
 
 .btn-dark {
