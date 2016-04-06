@@ -252,9 +252,27 @@ footer {
     margin-top:-500px;  /* your iframe height */
 }
 
-@media (min-width:961px) {
-    body .modal-dialog {
-        width: 940px;
+@media (min-width: 768px) {
+    div.modal-dialog {
+        width: 90%;
         margin: 30px auto;
     }
+}
+
+@media (min-width:961px) {
+    body .modal-dialog {
+        width: 85%;
+        margin: 30px auto;
+    }
+}
+
+@media (min-width:1500px) {
+    body .modal-dialog {
+        width: 75%;
+        margin: 30px auto;
+    }
+}
+
+.text-vertical-center {
+    color: white;
 }
